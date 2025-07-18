@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-image 1s ease-in-out;
+}
+
+.quote-container {
+  background-color: rgba(0, 0, 0, 0.65); /* Fixed dark glassy effect */
+  max-width: 600px;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 20px rgba(0,0,0,0.3);
+  text-align: center;
+  transition: color 0.5s;
+}
+
+
+
+#quoteText {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+#newQuoteBtn {
+  padding: 12px 25px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.5s, color 0.5s;
+}
+
+
+
+
+
